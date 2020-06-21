@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, big, cite, code,
+del, dfn, em, img, ins, q, s, samp,
+small, strike, strong, sub, sup,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+input, textarea, button, a, select, div {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent !important; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  /*-webkit-user-select:none;*/ }
+
+a, img, label {
+  /*-webkit-touch-callout: none;*/
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+input:focus {
+  outline: none; }
+
+
+/*SVG拼图 16px为基准单位,因为拼图四周有一个单位大小的间隔，所以这里是48px*/
+.m-icon {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../../../../images/stock_H5/img/sprite.svg");
+  background-size: 3em auto;
+  width: 1em;
+  height: 1em; }
+
+.m-icon-yellowv {
+  background-position: -1em -1em; }
+
+.m-icon-bluev {
+  background-position: -1em -4em; }
+
+.m-icon-club {
+  background-position: -1em -7em; }
+
+.m-icon-vgirl {
+  background-position: -1em -10em; }
+
+.m-icon-male {
+  background-position: -1em -13em; }
+
+.m-icon-female {
+  background-position: -1em -16em; }
+
+.m-icon-vip {
+  background-position: -1em -19em; }
+
+.m-icon-nvip {
+  background-position: -1em -22em; }
+
+.m-icon-like {
+  background-position: -1em -25em; }
+
+.m-icon-liked {
+  background-position: -1em -28em; }
+
+.m-icon-warn {
+  background-position: -1em -31em; }
+
+.m-icon-vipl1 {
+  background-position: -1em -34em; }
+
+.m-icon-vipl2 {
+  background-position: -1em -37em; }
+
+.m-icon-vipl3 {
+  background-position: -1em -40em; }
+
+.m-icon-vipl4 {
+  background-position: -1em -43em; }
+
+.m-icon-vipl5 {
+  background-position: -1em -46em; }
+
+.m-icon-vipl6 {
+  background-position: -1em -49em; }
+
+.m-icon-goldv {
+  background-position: -1em -52em; }
+
+.m-icon-close {
+  background-position: -1em -55em; }
+
+.m-icon-check {
+  background-position: -1em -58em; }
+
+.m-icon-warnRound {
+  background-position: -1em -61em; }
+
+.m-icon-tips {
+  background-position: -1em -64em; }
+
+.m-icon-query {
+  background-position: -1em -67em; }
+
+.m-icon {
+  font-size: 14px; }
+
+.m-icon-large {
+  font-size: 22px; }
+
+.m-icon-warn {
+  font-size: 18px; }
+
+/*金V*/
+.m-icon-goldv {
+  position: relative; }
+ 
+
+.m-icon-goldv::after {
+  content: ' ';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../../../images/stock_H5/font/img/goldv.png");
+  background-size: 1em auto;
+  background-position: 0 -10000px;
+  -webkit-animation: sprite 2s steps(15) 3 backwards;
+          animation: sprite 2s steps(15) 3 backwards; }
+
+@-webkit-keyframes sprite {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 0 -15em; } }
+
+@keyframes sprite {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 0 -15em; } }
+
+
+
