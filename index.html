@@ -1,307 +1,404 @@
 <!DOCTYPE>
 <html>
-	<head>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>云南省第六届网络安全等级保护技术大会</title>
-		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/index.css">
-		<link href="bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="swiper/swiper-3.4.2.min.css" rel="stylesheet" type="text/css">	
-		<script src="js/jquery.min.js" type="text/javascript"></script>
 
-		<script src="bootstrap/bootstrap.min.js" type="text/javascript"></script>
-		<script src="swiper/swiper-3.4.2.jquery.min.js" type="text/javascript"></script>
-	</head>
-	<body>
-		<!------header------->
-		<div class = "my-header">
-			<div class="hidden-xs">
-				<img src="./images/head.jpg" alt="云南省第六届网络安全等级保护技术大会" width="100%" style="display: block;">
-			</div>			
-			<div class="visible-xs-block">
-				<img src="./images/phone/banner.png" alt="云南省第六届网络安全等级保护技术大会" width="100%" style="display: block;">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>云南省第六届网络安全等级保护技术大会</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link href="bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="swiper/swiper-3.4.2.min.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+
+	<script src="bootstrap/bootstrap.min.js" type="text/javascript"></script>
+	<script src="swiper/swiper-3.4.2.jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<!---phone---nav------->
+	<nav class="navbar navbar-default visible-xs-block">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">首页</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">首页</a></li>
+					<li><a href="#">会议聚焦</a></li>
+					<li><a href="#">会议资讯</a></li>
+					<li><a href="./flow.html">会议议程</a></li>
+					<li><a href="./winners.html">获奖名单</a></li>
+					<li><a href="./winners.html">获奖名单2</a></li>
+					<li><a href="./winners.html">获奖名单3</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<!------header------->
+	<div class="my-header">
+		<div class="hidden-xs">
+			<img src="./images/head.jpg" alt="云南省第六届网络安全等级保护技术大会" width="100%" style="display: block;">
+		</div>
+		<div class="visible-xs-block">
+			<img src="./images/phone/banner.png" alt="云南省第六届网络安全等级保护技术大会" width="100%" style="display: block;">
+		</div>
+	</div>
+
+	<!---pc---nav------->
+	<div class="my-nav my-navbar hidden-xs">
+		<ul class="nav-list">
+			<li><a href="#">首页</a></li>
+			<li class="nav-act"><a href="#">会议直播</a></li>
+			<li><a href="./flow.html">会议流程</a></li>
+			<li><a href="#">会议资讯</a></li>
+			<li><a href="#">会议聚焦</a></li>
+		</ul>
+	</div>
+
+	<!---phone-----main--------->
+	<div class="my-main-phone visible-xs-block">
+		<div class="phone-live">
+			<div class="phone-title">会议直播</div>
+			<!-------按需酌情删除行内样式style="height:5.75rem;width:10.4rem;background-color: blue;"---->
+			<div class="live-box" style="background-color: blue;">living</div>
+		</div>
+		<div class="phone-flow" style="margin-top: .2rem;">
+			<div class="phone-title">会议流程</div>
+			<div class="flow-box" style="margin-top: .3rem;"><img src="./images/phone/flow.png" alt="会议流程" width="100%">
 			</div>
 		</div>
-		<!---pc---nav------->
-		<div class="my-nav my-navbar hidden-xs">
-			<ul class="nav-list" >
-				<li><a href="#">首页</a></li>
-				<li class="nav-act"><a href="#">会议直播</a></li>
-				<li><a href="#">会议流程</a></li>
-				<li><a href="#">会议资讯</a></li>
-				<li><a href="#">会议聚焦</a></li>
-			</ul>
-		</div>
+		<div class="phone-info" style="margin-top: .5rem;">
+			<div class="phone-title">会议资讯</div>
 
-		<!---phone-----main--------->
-		<div class="my-main-phone visible-xs-block">
-			<div class="phone-live">
-				<div class="phone-title">会议直播</div>
-				<!-------按需酌情删除行内样式style="height:5.75rem;width:10.4rem;background-color: blue;"---->
-				<div class="live-box" style="background-color: blue;">living</div>
-			</div>
-			<div class="phone-flow" style="margin-top: .2rem;">
-				<div class="phone-title">会议流程</div>
-				<div class="flow-box" style="margin-top: .3rem;"><img src="./images/phone/flow.png" alt="会议流程" width="100%"></div>
-			</div>			
-			<div class="phone-info" style="margin-top: .5rem;">
-				<div class="phone-title">会议资讯</div>
-				<div class="info-box" style="margin-top: .2rem;">
-					<div class="swiper-container">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide">Slide 1</div>
-							<div class="swiper-slide">Slide 2</div>
-							<div class="swiper-slide">Slide 3</div>
-						</div>
+			<div class="phone-info-box">
+				<div class="swiper-container-info-box-phone swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
+						<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+								style="display: block;"></div>
 					</div>
+
+					<!-- <div class="swiper-pagination"></div> -->
 				</div>
 			</div>
-			<div class="phone-focus" style="margin-top: .48rem;">
-				<div class="phone-title">会议聚焦</div>
-				<ul class="focus-box" style="margin-top: .2rem;">
-					<li class="focus-item">
-						<img src="./images/phone/banner.png" width="100%" style="display: block;">
-						<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
-					</li>
-					<li class="focus-item">
-						<img src="./images/phone/banner.png" width="100%" style="display: block;">
-						<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
-					</li>
-					<li class="focus-item">
-						<img src="./images/phone/banner.png" width="100%" style="display: block;">
-						<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
-					</li>
-					<li class="focus-item">
-						<img src="./images/phone/banner.png" width="100%" style="display: block;">
-						<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
-					</li>
-					<li class="focus-item">
-						<img src="./images/phone/banner.png" width="100%" style="display: block;">
-						<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
-					</li>
-					<li class="focus-item">
-						<img src="./images/phone/banner.png" width="100%" style="display: block;">
-						<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
+
+
+
+		</div>
+		<div class="phone-focus" style="margin-top: .48rem;">
+			<div class="phone-title">会议聚焦</div>
+			<ul class="focus-box" style="margin-top: .2rem;">
+				<li class="focus-item">
+					<img src="./images/phone/banner.png" width="100%" style="display: block;">
+					<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
+				</li>
+				<li class="focus-item">
+					<img src="./images/phone/banner.png" width="100%" style="display: block;">
+					<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
+				</li>
+				<li class="focus-item">
+					<img src="./images/phone/banner.png" width="100%" style="display: block;">
+					<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
+				</li>
+				<li class="focus-item">
+					<img src="./images/phone/banner.png" width="100%" style="display: block;">
+					<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
+				</li>
+				<li class="focus-item">
+					<img src="./images/phone/banner.png" width="100%" style="display: block;">
+					<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
+				</li>
+				<li class="focus-item">
+					<img src="./images/phone/banner.png" width="100%" style="display: block;">
+					<p>云南公安厅传达学习席近平总书记重要讲话全国两会精神</p>
+				</li>
+			</ul>
+			<div class="focus-more">
+				<div class="focus-more-text"><a href="#">点击查看更多内容简介+</a></div>
+			</div>
+			<div class="phone-logo">
+				<div style="display: inline-block;width: 3.44rem;"><img src="images/云视网LOGO.png" width="100%"
+						style="display: block;"></div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!--------main--------->
+	<div class="my-main hidden-xs">
+		<!--------直播--------->
+		<div class="my-live">
+			<!-------按需酌情删除行内样式style="height:5.75rem;width:10.4rem;background-color: blue;"---->
+			<div class="live-div" style="height:5.75rem;width:10.4rem;background-color: blue;">living</div>
+		</div>
+		<!--------会议流程--------->
+		<div class="flow">
+			<div class="my-navbar">
+				<div class="my-title">会议议程</div>
+			</div>
+			<div class="pc-flow">
+				<ul style="position: absolute;text-align: right">
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+					<li>9:00-9:05</li>
+				</ul>
+				<ul style="position: absolute;left: 1.1rem;z-index: 2;">
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+					<li class="icon"><img src="images/icon.png"></li>
+
+				</ul>
+				<div class="line"></div>
+				<ul style="position: absolute;left: 1.5rem;">
+					<li>主持人介绍会议情况</li>
+					<li>省公安厅领导致辞</li>
+					<li>省委网信办领导致辞</li>
+					<li>云南广播电视台领导致辞</li>
+					<li>云南无线数字电视文化传媒股份有限公司领导致辞</li>
+					<li>国家广播电视总局监管中心信息安全处处长程露关于《贯彻国家等级保护制度护航行业网络安全保障》课题分享</li>
+					<li>省公安厅网安部队领导宣布云南省2019年度 网络安全等级保护工作考核优秀单位、优秀个人</li>
+					<li>云南2019年度网络安全等级保护工作考核优秀单位代表发言</li>
+					<li>云南2019年度网络安全等级保护工作考核优秀个人代表发言</li>
+					<li>云南无线数字电视文化传媒股份有限公司做《落实网络安全等级保护要求做好县级融媒体网络安全保障》课题分享</li>
+					<li>国内网络安全企业和省内网络安全等级保护测评机构主题分享</li>
+
+
+				</ul>
+
+			</div>
+		</div>
+
+		<!--------会议资讯--------->
+		<div class="info">
+			<div class="my-navbar">
+				<div class="my-title">会议资讯</div>
+			</div>
+			<div class="pc-info">
+				<div class="pc-info-box">
+					<div class="swiper-container-info-box swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+							<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%"
+									style="display: block;"></div>
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--------会议聚焦--------->
+		<div class="focus">
+			<div class="my-navbar">
+				<div class="my-title">会议聚焦</div>
+			</div>
+			<div class="pc-focus pc-info">
+				<div class="swiper-container focus-swiper" style="width: 70%;margin: 0 auto;height: 75%;">
+					<div class="swiper-wrapper" style="margin-top: 1.5rem;">
+						<div class="swiper-slide text-center">
+							<ul>
+								<li class="focus-img">
+									<div class="img"><img src="./images/bgbg.jpg" width="100%" style="display: block;">
+									</div>
+									<div style="padding:0 .1rem;">
+										<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
+										<p class="info">
+											6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见
+											。副省长、省公安厅党委书记。<span>[详情]</span></p>
+									</div>
+								</li>
+								<li class="focus-img">
+									<div class="img"><img src="./images/bgbg.jpg" width="100%" style="display: block;">
+									</div>
+									<div style="padding:0 .1rem;">
+										<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
+										<p class="info">
+											6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见
+											。副省长、省公安厅党委书记。<span>[详情]</span></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide text-center">
+							<ul>
+								<li class="focus-img">
+									<div class="img" style="overflow: hidden;"><img src="./images/bgbg.jpg" width="100%"
+											style="display: block;"></div>
+									<div style="padding:0 .1rem;">
+										<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
+										<p class="info">
+											6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见
+											。副省长、省公安厅党委书记。<span>[详情]</span></p>
+									</div>
+								</li>
+								<li class="focus-img">
+									<div class="img" style="overflow: hidden;"><img src="./images/bgbg.jpg" width="100%"
+											style="display: block;"></div>
+									<div style="padding:0 .1rem;">
+										<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
+										<p class="info">
+											6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见
+											。副省长、省公安厅党委书记。<span>[详情]</span></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide text-center">
+							<ul>
+								<li class="focus-img">
+									<div class="img" style="overflow: hidden;"><img src="./images/bgbg.jpg" width="100%"
+											style="display: block;"></div>
+									<div style="padding:0 .1rem;">
+										<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
+										<p class="info">
+											6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见
+											。副省长、省公安厅党委书记。<span>[详情]</span></p>
+									</div>
+								</li>
+								<li class="focus-img">
+									<div class="img" style="overflow: hidden;"><img src="./images/bgbg.jpg" width="100%"
+											style="display: block;"></div>
+									<div style="padding:0 .1rem;">
+										<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
+										<p class="info">
+											6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见
+											。副省长、省公安厅党委书记。<span>[详情]</span></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+
+					</div>
+
+				</div>
+				<div class="swiper-button-prev1 prev prev-focus"></div>
+				<div class="swiper-button-next1 next next-focus"></div>
+				<div class="more">点击查看更多内容+</div>
+				<div class="logo"><img src="images/云视网LOGO.png"></div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--------footer--------->
+	<div class="my-footer">
+		<div class="my-footer-top row">
+			<div class="undertaker col-sm-6 col-xs-12">
+				<ul>
+					<li class="footer_left"><span>主办单位:</span><br />云南省网络安全等级保护工作领导小组<br />云南省公安厅</li>
+					<li class="footer_left"><span>承办单位:</span><br />云南无线数字电视文化传媒股份有限公司</li>
+					<li class="footer_left"><span>技术支持单位:</span><br />云南广播电视台<br />云南广电传媒集团<br />绿盟科技集团股份有限公司</li>
+				</ul>
+
+			</div>
+			<div class="undertaker col-sm-6 col-xs-12">
+
+				<ul>
+					<li class="footer_left"><span>协办单位:</span>
+						<br />云南南天电子信息产业股份有限公司信息安全测评中心<br />
+						云南瑞讯达通信技术有限公司<br />
+						云南联创网安科技有限公司<br />
+						云南厚壁信息安全测评有限公司<br />
+						云南电信公众信息产业有限公司<br />
+						云南金质信息技术服务有限公司<br />
+						奇安信科技集团股份有限公司<br />
+						绿盟科技集团股份有限公司<br />
+						杭州安恒信息技术股份有限公司<br />
+						深信服科技股份有限公司<br />
+						北京奇虎鸿腾科技有限公司
 					</li>
 				</ul>
-				<div class="focus-more">
-					<div class="focus-more-text"><a href="#">点击查看更多内容简介+</a></div>
-				</div>
-				<div class="phone-logo">
-					<div style="display: inline-block;width: 3.44rem;"><img src="images/云视网LOGO.png" width="100%" style="display: block;"></div>
-					
-				</div>
-			</div>
 
-		</div>
-
-		<!--------main--------->
-		<div class="my-main hidden-xs">
-			<!--------直播--------->
-			<div class="my-live">
-				<!-------按需酌情删除行内样式style="height:5.75rem;width:10.4rem;background-color: blue;"---->
-				<div class="live-div" style="height:5.75rem;width:10.4rem;background-color: blue;">living</div>
-			</div>
-			<!--------会议流程--------->
-			<div class="flow">
-				<div class="my-navbar"><div class="my-title">会议议程</div></div>
-				<div class="pc-flow">
-					<ul style="position: absolute;text-align: right">
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>
-						<li>9:00-9:05</li>						
-					</ul>
-					<ul style="position: absolute;left: 1.1rem;z-index: 2;">
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						<li class="icon"><img src="images/icon.png"></li>
-						
-					</ul>
-					<div class="line"></div>
-					<ul style="position: absolute;left: 1.5rem;">
-						<li>主持人介绍会议情况</li>
-						<li>省公安厅领导致辞</li>
-						<li>省委网信办领导致辞</li>
-						<li>云南广播电视台领导致辞</li>
-						<li>云南无线数字电视文化传媒股份有限公司领导致辞</li>
-						<li>国家广播电视总局监管中心信息安全处处长程露关于《贯彻国家等级保护制度护航行业网络安全保障》课题分享</li>
-						<li>省公安厅网安部队领导宣布云南省2019年度 网络安全等级保护工作考核优秀单位、优秀个人</li>
-						<li>云南2019年度网络安全等级保护工作考核优秀单位代表发言</li>
-						<li>云南2019年度网络安全等级保护工作考核优秀个人代表发言</li>
-						<li>云南无线数字电视文化传媒股份有限公司做《落实网络安全等级保护要求做好县级融媒体网络安全保障》课题分享</li>
-						<li>国内网络安全企业和省内网络安全等级保护测评机构主题分享</li>						
-						
-						
-					</ul>
-										
-				</div>
-			</div>
-
-			<!--------会议资讯--------->
-			<div class="info">
-				<div class="my-navbar"><div class="my-title">会议资讯</div></div>
-				<div class="pc-info">         
-						<div class="pc-info-box">
-							<div class="swiper-container-info-box swiper-container">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-									<div class="swiper-slide pc-info-item"><img src="./images/person.jpg" width="100%" style="display: block;"></div>
-								</div>
-								<!-- Add Pagination -->
-								<div class="swiper-pagination"></div>
-							</div>							
-						</div>
-
-				</div>
-			</div>
-
-			<!--------会议聚焦--------->
-			<div class="focus">
-				<div class="my-navbar"><div class="my-title">会议聚焦</div></div>
-				<div class="pc-focus pc-info">
-					<div class="swiper-container focus-swiper" style="width: 70%;margin: 0 auto;height: 75%;">
-					    <div class="swiper-wrapper" style="margin-top: 1.5rem;">
-					        <div class="swiper-slide text-center">					        	
-				        		<ul>
-				        			<li class="focus-img">
-				        				<div class="img"><img src="./images/bgbg.jpg" width="100%" style="display: block;"></div>
-				        				<div style="padding:0 .1rem;">
-					        				<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
-					        				<p class="info">6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见 。副省长、省公安厅党委书记。<span>[详情]</span></p>
-				        				</div>
-				        			</li>
-				        			<li class="focus-img">
-				        				<div class="img" ><img src="./images/bgbg.jpg" width="100%" style="display: block;"></div>
-				        				<div style="padding:0 .1rem;">
-					        				<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
-					        				<p class="info">6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见 。副省长、省公安厅党委书记。<span>[详情]</span></p>
-				        				</div>
-				        			</li>
-				        		</ul>					        			        	
-					        </div>
-					        <div class="swiper-slide text-center">					        	
-				        		<ul>
-				        			<li class="focus-img">
-				        				<div class="img" style="overflow: hidden;"><img src="./images/bgbg.jpg" width="100%" style="display: block;"></div>
-				        				<div style="padding:0 .1rem;">
-					        				<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
-					        				<p class="info">6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见 。副省长、省公安厅党委书记。<span>[详情]</span></p>
-				        				</div>
-				        			</li>
-				        			<li class="focus-img">
-				        				<div class="img" style="overflow: hidden;"><img src="./images/bgbg.jpg" width="100%" style="display: block;"></div>
-				        				<div style="padding:0 .1rem;">
-					        				<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
-					        				<p class="info">6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见 。副省长、省公安厅党委书记。<span>[详情]</span></p>
-				        				</div>
-				        			</li>
-				        		</ul>					        			        	
-					        </div>
-					        <div class="swiper-slide text-center">					        	
-				        		<ul>
-				        			<li class="focus-img">
-				        				<div class="img" style="overflow: hidden;"><img src="./images/bgbg.jpg" width="100%" style="display: block;"></div>
-				        				<div style="padding:0 .1rem;">
-					        				<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
-					        				<p class="info">6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见 。副省长、省公安厅党委书记。<span>[详情]</span></p>
-				        				</div>
-				        			</li>
-				        			<li class="focus-img">
-				        				<div class="img" style="overflow: hidden;"><img src="./images/bgbg.jpg" width="100%" style="display: block;"></div>
-				        				<div style="padding:0 .1rem;">
-					        				<p class="title">云南省公安厅党委传达学习习近平总书记重要讲话和全国两会精神</p>
-					        				<p class="info">6月4日，云南省公安厅召开党委会，传达学习习近平总书记在全国两会期间、在专家学者座谈会上的重要讲话精神和全国两会精神，研究贯彻落实意见 。副省长、省公安厅党委书记。<span>[详情]</span></p>
-				        				</div>
-				        			</li>
-				        		</ul>					        			        	
-					        </div>
-					       
-					        
-					    </div>
-
-					</div>
-					<div class="swiper-button-prev1 prev prev-focus"></div>
-				    <div class="swiper-button-next1 next next-focus"></div>
-				    <div class="more">点击查看更多内容+</div>
-					<div class="logo"><img src="images/云视网LOGO.png"></div>
-				</div>
-				
 			</div>
 		</div>
+		<div class="my-footer-bottom">云南省第六届网络安全等级保护技术大会</div>
+	</div>
 
-		<!--------footer--------->
-		<div class="my-footer">
-			<div class="my-footer-top row">
-				<div class="undertaker col-sm-6 col-xs-12">
-					<ul>
-						<li class="footer_left"><span>主办单位:</span><br/>云南省网络安全等级保护工作领导小组<br/>云南省公安厅</li>
-						<li class="footer_left"><span>承办单位:</span><br/>云南无线数字电视文化传媒股份有限公司</li>
-						<li class="footer_left"><span>技术支持单位:</span><br/>云南广播电视台<br/>云南广电传媒集团<br/>绿盟科技集团股份有限公司</li>						
-					</ul>
-					
-				</div>
-				<div class="undertaker col-sm-6 col-xs-12">
-					
-					<ul>
-						<li class="footer_left"><span>协办单位:</span>
-							<br/>云南南天电子信息产业股份有限公司信息安全测评中心<br/>
-							云南瑞讯达通信技术有限公司<br/>
-							云南联创网安科技有限公司<br/>
-							云南厚壁信息安全测评有限公司<br/>
-							云南电信公众信息产业有限公司<br/>
-							云南金质信息技术服务有限公司<br/>
-							奇安信科技集团股份有限公司<br/>
-							绿盟科技集团股份有限公司<br/>
-							杭州安恒信息技术股份有限公司<br/>
-							深信服科技股份有限公司<br/>
-							北京奇虎鸿腾科技有限公司							
-						</li>						
-					</ul>
-					
-				</div>
-			</div>
-			<div class="my-footer-bottom">云南省第六届网络安全等级保护技术大会</div>
-		</div>
-	
-	</body>
+</body>
+
 </html>
-<script> 
-	(function(doc, win, size, int) {
+<script>
+	(function (doc, win, size, int) {
 		var docEle = doc.documentElement,
 			evt = 'onorientationchange' in window ? 'orientationchange' : 'resize',
-			fn = function() {
+			fn = function () {
 				var width = width > 750 ? 750 : docEle.clientWidth;
 				if (width > size) {
 					docEle.style.fontSize = int + 'px';
-				} else if(width > 768) {
+				} else if (width > 768) {
 					width && (docEle.style.fontSize = width / (size / int) + 'px');
 				} else {
 					width && (docEle.style.fontSize = width / (768 / int) + 'px');
@@ -311,43 +408,39 @@
 		win.addEventListener(evt, fn, false);
 		doc.addEventListener('DOMContentLoaded', fn, false);
 	})(document, window, 1920, 100);
-	
 
-  //会议聚集
-  var mySwiper = new Swiper('.focus-swiper', {
-	  speed:500,
-	  loop:true,
-	  slidesPerView: 3,
-      spaceBetween: 30,
-      pagination : '.swiper-pagination',
-              paginationClickable :true,
-      // 如果需要前进后退按钮
-      nextButton: '.swiper-button-next1',
-      prevButton: '.swiper-button-prev1'
-  });
-  var swiper = new Swiper('.swiper-container-info-box', {
-        pagination: '.swiper-pagination',
-        slidesPerView: 4,
-        slidesPerColumn: 2,
-        paginationClickable: true,
-        spaceBetween: 20
-    });
-//会议资讯
-//   var broadcastSwiper = new Swiper('.action-box',{
-      
-//       speed:500,
-//       loop: true,
-//       observer: true,//修改swiper自己或子元素时，自动初始化swiper
-//       observeParents: true,//修改swiper的父元素时，自动初始化swiper
-//       pagination : '.swiper-pagination',
-//       paginationClickable :true,
-//       setWrapperSize :true,
-//       autoplayDisableOnInteraction : false,
-//       onClick: function(broadcastSwiper){
-//       	broadcastSwiper.stopAutoplay();
-//       },
-//       onSlideChangeEnd: function(broadcastSwiper){
-//       	broadcastSwiper.startAutoplay();
-//       }
-//   });
+
+	//会议聚集
+	var mySwiper = new Swiper('.focus-swiper', {
+		speed: 500,
+		loop: true,
+		slidesPerView: 3,
+		spaceBetween: 30,
+		pagination: '.swiper-pagination',
+		paginationClickable: true,
+		// 如果需要前进后退按钮
+		nextButton: '.swiper-button-next1',
+		prevButton: '.swiper-button-prev1'
+	});
+	var swiper = new Swiper('.swiper-container-info-box', {
+		pagination: '.swiper-pagination',
+		slidesPerView: 4,
+		slidesPerColumn: 2,
+		paginationClickable: true,
+		spaceBetween: 20
+	});
+	var swiper1 = new Swiper('.swiper-container-info-box-phone', {
+		slidesPerView: 2,
+		paginationClickable: true,
+		spaceBetween: 30,
+		autoplay: 4000,
+		autoplayDisableOnInteraction: false
+	});
+	//手机端
+	// var swiper1 = new Swiper('.swiper-container-info-box', {
+	// 	slidesPerView: 2,
+	//     spaceBetween: 30,
+	//     autoplay: 2500,
+	//     autoplayDisableOnInteraction: false
+	// });
 </script>
